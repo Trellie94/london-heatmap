@@ -1,0 +1,70 @@
+import type { Category } from '@/types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'gails',
+    label: 'Gails Bakery',
+    color: '#F59E0B',
+    defaultRadius: 300,
+    defaultWeight: 8,
+  },
+  {
+    id: 'mands',
+    label: 'M&S',
+    color: '#22C55E',
+    defaultRadius: 300,
+    defaultWeight: 7,
+    group: 'Grocery',
+  },
+  {
+    id: 'waitrose',
+    label: 'Waitrose',
+    color: '#16A34A',
+    defaultRadius: 300,
+    defaultWeight: 7,
+    group: 'Grocery',
+  },
+  {
+    id: 'sainsburys',
+    label: "Sainsbury's",
+    color: '#F97316',
+    defaultRadius: 300,
+    defaultWeight: 7,
+    group: 'Grocery',
+  },
+  {
+    id: 'gyms',
+    label: 'Gyms',
+    color: '#60A5FA',
+    defaultRadius: 300,
+    defaultWeight: 6,
+  },
+  {
+    id: 'stations',
+    label: 'Train Stations',
+    color: '#818CF8',
+    defaultRadius: 300,
+    defaultWeight: 9,
+  },
+  {
+    id: 'parks',
+    label: 'Parks & Green Spaces',
+    color: '#A3E635',
+    defaultRadius: 300,
+    defaultWeight: 6,
+  },
+  {
+    id: 'coffee',
+    label: 'Independent Coffee',
+    color: '#C2855A',
+    defaultRadius: 300,
+    defaultWeight: 5,
+  },
+  {
+    id: 'gastropubs',
+    label: 'Gastropubs',
+    color: '#FB7185',
+    defaultRadius: 300,
+    defaultWeight: 5,
+  },
+];

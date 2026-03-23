@@ -1,0 +1,173 @@
+[
+  {
+    "id": "ms-clapham-junction",
+    "name": "M&S Clapham Junction",
+    "type": "Full Store with Food Hall",
+    "borough": "Wandsworth",
+    "address": "45 St Johns Road, London SW11 1QP",
+    "lat": 51.4622,
+    "lng": -0.1672
+  },
+  {
+    "id": "ms-clapham-junction-station",
+    "name": "M&S Simply Food Clapham Junction Station",
+    "type": "Simply Food",
+    "borough": "Wandsworth",
+    "address": "Clapham Junction Station, Grant Road, London SW11 1RU",
+    "lat": 51.4638,
+    "lng": -0.1684
+  },
+  {
+    "id": "ms-putney",
+    "name": "M&S Putney",
+    "type": "Foodhall",
+    "borough": "Wandsworth",
+    "address": "59 Putney High Street, London SW15 1SP",
+    "lat": 51.4644,
+    "lng": -0.2148
+  },
+  {
+    "id": "ms-clapham-south",
+    "name": "M&S Simply Food Clapham South",
+    "type": "Simply Food",
+    "borough": "Wandsworth",
+    "address": "2a Balham Hill Road, Clapham, London SW12 9EA",
+    "lat": 51.4521,
+    "lng": -0.1482
+  },
+  {
+    "id": "ms-wandsworth-bp",
+    "name": "M&S Food Wandsworth BP",
+    "type": "BP Petrol Station",
+    "borough": "Wandsworth",
+    "address": "11 Swandon Way, Wandsworth, London SW18 1EW",
+    "lat": 51.4620,
+    "lng": -0.1882
+  },
+  {
+    "id": "ms-southfields",
+    "name": "M&S Foodhall Southfields",
+    "type": "Foodhall",
+    "borough": "Wandsworth",
+    "address": "231 Wimbledon Park Road, Southfields, London SW18 5RJ",
+    "lat": 51.4454,
+    "lng": -0.2057
+  },
+  {
+    "id": "ms-earlsfield",
+    "name": "M&S Foodhall Earlsfield",
+    "type": "Foodhall",
+    "borough": "Wandsworth",
+    "address": "170 Penwith Road, London SW18 4QA",
+    "lat": 51.4425,
+    "lng": -0.1894
+  },
+  {
+    "id": "ms-battersea-power-station",
+    "name": "M&S Foodhall Battersea Power Station",
+    "type": "Foodhall",
+    "borough": "Wandsworth",
+    "address": "5 Lumen Lane, Battersea Power Station, London SW8 5BN",
+    "lat": 51.4808,
+    "lng": -0.1445
+  },
+  {
+    "id": "ms-tooting-bec-bp",
+    "name": "M&S Food Tooting Bec BP",
+    "type": "BP Petrol Station",
+    "borough": "Wandsworth",
+    "address": "62-64 Trinity Road, Tooting Bec, London SW17 7HW",
+    "lat": 51.4372,
+    "lng": -0.1614
+  },
+  {
+    "id": "ms-st-georges-hospital",
+    "name": "M&S Simply Food St George's Hospital",
+    "type": "Simply Food",
+    "borough": "Wandsworth",
+    "address": "Blackshaw Road, Tooting, London SW17 0QT",
+    "lat": 51.4267,
+    "lng": -0.1732
+  },
+  {
+    "id": "ms-brixton",
+    "name": "M&S Foodhall Brixton",
+    "type": "Foodhall",
+    "borough": "Lambeth",
+    "address": "446 Brixton Road, London SW9 8ED",
+    "lat": 51.4633,
+    "lng": -0.1150
+  },
+  {
+    "id": "ms-streatham-hill",
+    "name": "M&S Foodhall Streatham Hill",
+    "type": "Foodhall",
+    "borough": "Lambeth",
+    "address": "142-170 Streatham Hill, London SW2 4RS",
+    "lat": 51.4389,
+    "lng": -0.1267
+  },
+  {
+    "id": "ms-streatham",
+    "name": "M&S Foodhall Streatham",
+    "type": "Foodhall",
+    "borough": "Lambeth",
+    "address": "352 Streatham High Road, Streatham, London SW16 6HP",
+    "lat": 51.4257,
+    "lng": -0.1313
+  },
+  {
+    "id": "ms-clapham-common",
+    "name": "M&S Foodhall Clapham Common",
+    "type": "Foodhall",
+    "borough": "Lambeth",
+    "address": "156-164 Clapham High Street, London SW4 7UG",
+    "lat": 51.4625,
+    "lng": -0.1372
+  },
+  {
+    "id": "ms-waterloo-station-main",
+    "name": "M&S Simply Food Waterloo Station",
+    "type": "Simply Food",
+    "borough": "Lambeth",
+    "address": "Waterloo Station (Platforms 6/7), London SE1 7LY",
+    "lat": 51.5030,
+    "lng": -0.1129
+  },
+  {
+    "id": "ms-waterloo-station-south",
+    "name": "M&S Simply Food Waterloo South",
+    "type": "Simply Food",
+    "borough": "Lambeth",
+    "address": "Unit 16 Platform 21/22, Waterloo Station, London SE1 8SW",
+    "lat": 51.5032,
+    "lng": -0.1133
+  },
+  {
+    "id": "ms-colliers-wood",
+    "name": "M&S Colliers Wood",
+    "type": "Full Store",
+    "borough": "Merton",
+    "address": "1 Merton High Street, Colliers Wood, London SW19 1DD",
+    "lat": 51.4152,
+    "lng": -0.1814
+  },
+  {
+    "id": "ms-wimbledon",
+    "name": "M&S Foodhall Wimbledon",
+    "type": "Foodhall",
+    "borough": "Merton",
+    "address": "Centre Court Shopping Centre, 4 Queens Road, Wimbledon, London SW19 8YE",
+    "lat": 51.4210,
+    "lng": -0.2054
+  },
+  {
+    "id": "ms-wimbledon-chase-bp",
+    "name": "M&S Food Wimbledon Chase BP",
+    "type": "BP Petrol Station",
+    "borough": "Merton",
+    "address": "314 Kingston Road, London SW20 8LR",
+    "lat": 51.4087,
+    "lng": -0.2142
+  }
+]

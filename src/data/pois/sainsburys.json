@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sainsburys-wandsworth",
+    "name": "Sainsbury's Wandsworth",
+    "address": "Garratt Lane, SW18 4AB",
+    "lat": 51.4523,
+    "lng": -0.1885
+  },
+  {
+    "id": "sainsburys-clapham",
+    "name": "Sainsbury's Clapham",
+    "address": "Clapham High St, SW4 7SB",
+    "lat": 51.4614,
+    "lng": -0.1382
+  },
+  {
+    "id": "sainsburys-tooting",
+    "name": "Sainsbury's Tooting",
+    "address": "Mitcham Rd, Tooting, SW17 9NA",
+    "lat": 51.4280,
+    "lng": -0.1678
+  },
+  {
+    "id": "sainsburys-putney",
+    "name": "Sainsbury's Putney",
+    "address": "Montserrat Rd, Putney, SW15 2LD",
+    "lat": 51.4602,
+    "lng": -0.2148
+  },
+  {
+    "id": "sainsburys-battersea-park",
+    "name": "Sainsbury's Battersea Park Road",
+    "address": "Battersea Park Rd, SW11 4ND",
+    "lat": 51.4753,
+    "lng": -0.1534
+  }
+]

@@ -1,0 +1,120 @@
+[
+  {
+    "id": "park-battersea",
+    "name": "Battersea Park",
+    "type": "Large Destination Park",
+    "address": "Albert Bridge Rd, SW11 4NJ",
+    "lat": 51.4787,
+    "lng": -0.1578,
+    "area_ha": 83
+  },
+  {
+    "id": "park-wandsworth-common",
+    "name": "Wandsworth Common",
+    "type": "Common",
+    "address": "Wandsworth Common, SW12",
+    "lat": 51.4512,
+    "lng": -0.1622,
+    "area_ha": 72
+  },
+  {
+    "id": "park-tooting-bec-common",
+    "name": "Tooting Bec Common",
+    "type": "Common",
+    "address": "Tooting Bec Rd, SW16 1PP",
+    "lat": 51.4327,
+    "lng": -0.1527,
+    "area_ha": 56
+  },
+  {
+    "id": "park-tooting-graveney-common",
+    "name": "Tooting Graveney Common",
+    "type": "Common",
+    "address": "Tooting Common, SW17",
+    "lat": 51.4293,
+    "lng": -0.1680,
+    "area_ha": 50
+  },
+  {
+    "id": "park-wandsworth-park",
+    "name": "Wandsworth Park",
+    "type": "Local Park",
+    "address": "Putney Bridge Rd, SW18 1HJ",
+    "lat": 51.4610,
+    "lng": -0.2060,
+    "area_ha": 9
+  },
+  {
+    "id": "park-king-georges",
+    "name": "King George's Park",
+    "type": "Local Park",
+    "address": "Buckhold Rd, SW18 4PQ",
+    "lat": 51.4562,
+    "lng": -0.1920,
+    "area_ha": 17
+  },
+  {
+    "id": "park-clapham-common",
+    "name": "Clapham Common",
+    "type": "Common",
+    "address": "Clapham Common, SW4 9DE",
+    "lat": 51.4581,
+    "lng": -0.1376,
+    "area_ha": 88,
+    "note": "Lambeth/Wandsworth border — significant amenity for SW4/SW11"
+  },
+  {
+    "id": "park-south-park-earlsfield",
+    "name": "South Park",
+    "type": "Local Park",
+    "address": "Merton Rd, SW18",
+    "lat": 51.4404,
+    "lng": -0.1918,
+    "area_ha": 4
+  },
+  {
+    "id": "park-latchmere",
+    "name": "Latchmere Recreation Ground",
+    "type": "Recreation Ground",
+    "address": "Latchmere Rd, SW11 2DR",
+    "lat": 51.4712,
+    "lng": -0.1601,
+    "area_ha": 6
+  },
+  {
+    "id": "park-putney-lower-common",
+    "name": "Putney Lower Common",
+    "type": "Common",
+    "address": "Putney Bridge Rd, SW15 1LB",
+    "lat": 51.4654,
+    "lng": -0.2243,
+    "area_ha": 17
+  },
+  {
+    "id": "park-putney-upper-common",
+    "name": "Putney Upper Common",
+    "type": "Common",
+    "address": "Putney Common, SW15",
+    "lat": 51.4614,
+    "lng": -0.2308,
+    "area_ha": 41
+  },
+  {
+    "id": "park-ham-lands",
+    "name": "Roehampton Recreation Ground",
+    "type": "Recreation Ground",
+    "address": "Roehampton, SW15",
+    "lat": 51.4517,
+    "lng": -0.2373,
+    "area_ha": 8
+  },
+  {
+    "id": "park-thamesside-wandsworth",
+    "name": "Riverside Quarter Open Space",
+    "type": "Local Green Space",
+    "address": "Osiers Rd, SW18",
+    "lat": 51.4612,
+    "lng": -0.2031,
+    "area_ha": 2
+  }
+]

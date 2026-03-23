@@ -1,0 +1,44 @@
+[
+  {
+    "id": "gails-wandsworth-town",
+    "name": "Gails Wandsworth Town",
+    "address": "350 Old York Rd, SW18 1SS",
+    "lat": 51.4558,
+    "lng": -0.1935
+  },
+  {
+    "id": "gails-earlsfield",
+    "name": "Gails Earlsfield",
+    "address": "537-539 Garratt Lane, SW18 4SR",
+    "lat": 51.4444,
+    "lng": -0.1893
+  },
+  {
+    "id": "gails-balham",
+    "name": "Gails Balham",
+    "address": "1 Station Parade, Balham High Rd, SW12 9AZ",
+    "lat": 51.4432,
+    "lng": -0.1527
+  },
+  {
+    "id": "gails-northcote-road",
+    "name": "Gails Northcote Road",
+    "address": "64 Northcote Rd, SW11 6QL",
+    "lat": 51.4618,
+    "lng": -0.1608
+  },
+  {
+    "id": "gails-clapham-old-town",
+    "name": "Gails Clapham Old Town",
+    "address": "10-12 Old Town, SW4 0JY",
+    "lat": 51.4601,
+    "lng": -0.1393
+  },
+  {
+    "id": "gails-putney",
+    "name": "Gails Putney",
+    "address": "Putney High Street, SW15",
+    "lat": 51.4648,
+    "lng": -0.2163
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "pub-the-alma-wandsworth",
+    "name": "The Alma",
+    "address": "499 Old York Rd, SW18 1TF",
+    "lat": 51.4558,
+    "lng": -0.1958,
+    "note": "Verify"
+  },
+  {
+    "id": "pub-the-cat-and-mutton",
+    "name": "The Freemasons",
+    "address": "2 Wandsworth Common Northside, SW18 2SS",
+    "lat": 51.4512,
+    "lng": -0.1622,
+    "note": "Verify — placeholder for curation"
+  },
+  {
+    "id": "pub-the-nightingale-balham",
+    "name": "The Nightingale",
+    "address": "97 Nightingale Lane, SW12 8NX",
+    "lat": 51.4479,
+    "lng": -0.1587,
+    "note": "Verify — placeholder for curation"
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "puregym-wandsworth",
+    "name": "PureGym Wandsworth",
+    "brand": "PureGym",
+    "address": "52 Wandsworth High Street, SW18 4LD",
+    "lat": 51.4562,
+    "lng": -0.1920
+  },
+  {
+    "id": "puregym-clapham",
+    "name": "PureGym Clapham",
+    "brand": "PureGym",
+    "address": "95-97 Clapham High Street, SW4 7TB",
+    "lat": 51.4614,
+    "lng": -0.1382
+  },
+  {
+    "id": "puregym-putney",
+    "name": "PureGym Putney",
+    "brand": "PureGym",
+    "address": "Putney, SW15",
+    "lat": 51.4645,
+    "lng": -0.2165,
+    "note": "Verify exact address"
+  },
+  {
+    "id": "puregym-wandsworth-road",
+    "name": "PureGym Wandsworth Road",
+    "brand": "PureGym",
+    "address": "204-206 Wandsworth Road, SW8 2JU",
+    "lat": 51.4726,
+    "lng": -0.1323,
+    "note": "Lambeth side - included as border signal"
+  },
+  {
+    "id": "f45-battersea-park",
+    "name": "F45 Training Battersea Park",
+    "brand": "F45",
+    "address": "Battersea Park Rd, SW11",
+    "lat": 51.4782,
+    "lng": -0.1578,
+    "note": "Verify exact address"
+  },
+  {
+    "id": "f45-tooting",
+    "name": "F45 Training Tooting",
+    "brand": "F45",
+    "address": "Tooting, SW17",
+    "lat": 51.4274,
+    "lng": -0.1680,
+    "note": "Verify exact address"
+  },
+  {
+    "id": "third-space-clapham",
+    "name": "Third Space Clapham",
+    "brand": "Third Space",
+    "address": "Clapham, SW4",
+    "lat": 51.4614,
+    "lng": -0.1401,
+    "note": "Technically Lambeth — verify if open and confirm address. Third Space Battersea Power Station also rumoured"
+  }
+]

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Chimney -->
+  <rect x="70" y="130" width="60" height="50" rx="3" stroke="#D4F53C" stroke-width="3" fill="none"/>
+  <!-- Chimney top rim -->
+  <rect x="64" y="125" width="72" height="10" rx="2" stroke="#D4F53C" stroke-width="3" fill="none"/>
+  <!-- Rooftop lines left -->
+  <line x1="20" y1="180" x2="70" y2="155" stroke="#D4F53C" stroke-width="2.5" opacity="0.5"/>
+  <!-- Rooftop lines right -->
+  <line x1="130" y1="155" x2="180" y2="180" stroke="#D4F53C" stroke-width="2.5" opacity="0.5"/>
+
+  <!-- Rooster body - sitting on chimney -->
+  <ellipse cx="100" cy="108" rx="28" ry="22" stroke="#D4F53C" stroke-width="3" fill="none"/>
+
+  <!-- Rooster neck -->
+  <path d="M 112 94 Q 118 78 114 65" stroke="#D4F53C" stroke-width="3" fill="none"/>
+
+  <!-- Rooster head -->
+  <circle cx="114" cy="58" r="12" stroke="#D4F53C" stroke-width="3" fill="none"/>
+
+  <!-- Eye -->
+  <circle cx="118" cy="56" r="2.5" fill="#D4F53C" stroke="none"/>
+
+  <!-- Beak -->
+  <path d="M 126 57 L 136 54 L 126 60" stroke="#D4F53C" stroke-width="2.5" fill="none"/>
+
+  <!-- Comb (on top of head) -->
+  <path d="M 106 50 Q 108 38 112 42 Q 114 34 118 40 Q 120 32 122 40 Q 118 48 116 47" stroke="#D4F53C" stroke-width="2.5" fill="none"/>
+
+  <!-- Wattle (under beak) -->
+  <path d="M 120 63 Q 124 70 118 68" stroke="#D4F53C" stroke-width="2" fill="none"/>
+
+  <!-- Tail feathers -->
+  <path d="M 72 98 Q 52 78 48 60" stroke="#D4F53C" stroke-width="3" fill="none"/>
+  <path d="M 72 102 Q 48 86 40 72" stroke="#D4F53C" stroke-width="2.5" fill="none"/>
+  <path d="M 72 106 Q 44 96 36 84" stroke="#D4F53C" stroke-width="2" fill="none"/>
+
+  <!-- Feet on chimney rim -->
+  <path d="M 90 125 L 88 130 M 85 128 L 91 128" stroke="#D4F53C" stroke-width="2" fill="none"/>
+  <path d="M 110 125 L 112 130 M 109 128 L 115 128" stroke="#D4F53C" stroke-width="2" fill="none"/>
+
+  <!-- Wing detail -->
+  <path d="M 88 100 Q 100 95 108 104" stroke="#D4F53C" stroke-width="2" fill="none" opacity="0.7"/>
+</svg>

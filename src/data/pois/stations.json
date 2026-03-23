@@ -1,0 +1,130 @@
+[
+  {
+    "id": "stn-clapham-junction",
+    "name": "Clapham Junction",
+    "type": "National Rail + Overground",
+    "lines": ["South Western Railway", "Southern", "London Overground"],
+    "address": "St John's Hill, SW11 1RW",
+    "lat": 51.4642,
+    "lng": -0.1695
+  },
+  {
+    "id": "stn-wandsworth-town",
+    "name": "Wandsworth Town",
+    "type": "National Rail",
+    "lines": ["South Western Railway"],
+    "address": "Old York Rd, SW18 1SS",
+    "lat": 51.4558,
+    "lng": -0.1939
+  },
+  {
+    "id": "stn-wandsworth-common",
+    "name": "Wandsworth Common",
+    "type": "National Rail",
+    "lines": ["Southern"],
+    "address": "Bellevue Rd, SW17 7EG",
+    "lat": 51.4509,
+    "lng": -0.1587
+  },
+  {
+    "id": "stn-earlsfield",
+    "name": "Earlsfield",
+    "type": "National Rail",
+    "lines": ["South Western Railway"],
+    "address": "Garratt Lane, SW18 4AE",
+    "lat": 51.4444,
+    "lng": -0.1893
+  },
+  {
+    "id": "stn-putney",
+    "name": "Putney",
+    "type": "National Rail",
+    "lines": ["South Western Railway"],
+    "address": "Putney High St, SW15 1SP",
+    "lat": 51.4645,
+    "lng": -0.2163
+  },
+  {
+    "id": "stn-balham-nr",
+    "name": "Balham",
+    "type": "National Rail + Underground",
+    "lines": ["Southern", "Northern line"],
+    "address": "Balham High Rd, SW12 9AZ",
+    "lat": 51.4431,
+    "lng": -0.1527
+  },
+  {
+    "id": "stn-streatham-hill",
+    "name": "Streatham Hill",
+    "type": "National Rail",
+    "lines": ["Southern"],
+    "address": "Christchurch Rd, SW2 3EN",
+    "lat": 51.4388,
+    "lng": -0.1259,
+    "note": "On Lambeth/Wandsworth border"
+  },
+  {
+    "id": "stn-tooting-bec",
+    "name": "Tooting Bec",
+    "type": "Underground",
+    "lines": ["Northern line"],
+    "address": "Balham High Rd, SW17 9AQ",
+    "lat": 51.4354,
+    "lng": -0.1606
+  },
+  {
+    "id": "stn-tooting-broadway",
+    "name": "Tooting Broadway",
+    "type": "Underground",
+    "lines": ["Northern line"],
+    "address": "Tooting High St, SW17 0SP",
+    "lat": 51.4274,
+    "lng": -0.1680
+  },
+  {
+    "id": "stn-clapham-south",
+    "name": "Clapham South",
+    "type": "Underground",
+    "lines": ["Northern line"],
+    "address": "Balham High Rd, SW12 9BS",
+    "lat": 51.4527,
+    "lng": -0.1478
+  },
+  {
+    "id": "stn-east-putney",
+    "name": "East Putney",
+    "type": "Underground",
+    "lines": ["District line"],
+    "address": "Upper Richmond Rd, SW15 2TZ",
+    "lat": 51.4592,
+    "lng": -0.2131
+  },
+  {
+    "id": "stn-southfields",
+    "name": "Southfields",
+    "type": "Underground",
+    "lines": ["District line"],
+    "address": "Replingham Rd, SW18 5LT",
+    "lat": 51.4451,
+    "lng": -0.2044
+  },
+  {
+    "id": "stn-wimbledon-park",
+    "name": "Wimbledon Park",
+    "type": "Underground",
+    "lines": ["District line"],
+    "address": "Arthur Rd, SW19 7NN",
+    "lat": 51.4394,
+    "lng": -0.2101
+  },
+  {
+    "id": "stn-putney-bridge",
+    "name": "Putney Bridge",
+    "type": "Underground",
+    "lines": ["District line"],
+    "address": "Ranelagh Gardens, SW6 3PA",
+    "lat": 51.4685,
+    "lng": -0.2090,
+    "note": "Technically Hammersmith & Fulham — included as border signal for Putney"
+  }
+]

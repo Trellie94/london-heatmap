@@ -1,0 +1,30 @@
+[
+  {
+    "id": "waitrose-southfields",
+    "name": "Waitrose Southfields",
+    "address": "Replingham Rd, Southfields, SW18 5LT",
+    "lat": 51.4451,
+    "lng": -0.2052
+  },
+  {
+    "id": "waitrose-putney",
+    "name": "Waitrose Putney",
+    "address": "Putney High St, SW15 1SN",
+    "lat": 51.4648,
+    "lng": -0.2164
+  },
+  {
+    "id": "waitrose-balham",
+    "name": "Waitrose Balham",
+    "address": "Balham High Rd, SW12 9BS",
+    "lat": 51.4436,
+    "lng": -0.1528
+  },
+  {
+    "id": "waitrose-battersea",
+    "name": "Waitrose Battersea",
+    "address": "Battersea Park Rd, SW11 4NB",
+    "lat": 51.4751,
+    "lng": -0.1536
+  }
+]

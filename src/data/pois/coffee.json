@@ -1,0 +1,26 @@
+[
+  {
+    "id": "coffee-note-coffee-battersea",
+    "name": "Note Coffee Battersea",
+    "address": "Northcote Rd, SW11",
+    "lat": 51.4618,
+    "lng": -0.1608,
+    "note": "Verify — placeholder for curation"
+  },
+  {
+    "id": "coffee-brickwood-balham",
+    "name": "Brickwood Balham",
+    "address": "Balham High Rd, SW12",
+    "lat": 51.4432,
+    "lng": -0.1527,
+    "note": "Verify — placeholder for curation"
+  },
+  {
+    "id": "coffee-federation-wandsworth",
+    "name": "Federation Coffee",
+    "address": "Wandsworth, SW18",
+    "lat": 51.4558,
+    "lng": -0.1935,
+    "note": "Verify — placeholder for curation"
+  }
+]
