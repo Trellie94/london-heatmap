@@ -22,7 +22,7 @@ export default function MiniMap({ lat, lng, className = '' }: MiniMapProps) {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: `https://api.maptiler.com/maps/streets-v2-dark/style.json?key=${import.meta.env.VITE_MAPTILER_KEY}`,
+      style: 'https://api.maptiler.com/maps/streets-v2-dark/style.json?key=KRm0tPC1vy3ZKfJl94Ms',
       center: [lng, lat],
       zoom: 14.5, // ~350m radius visible
       interactive: false,

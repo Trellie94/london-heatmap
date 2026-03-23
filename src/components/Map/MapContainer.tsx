@@ -25,7 +25,7 @@ const MapContainer = forwardRef<MapHandle, MapContainerProps>(({ boundary }, ref
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: `https://api.maptiler.com/maps/streets-v2/style.json?key=${import.meta.env.VITE_MAPTILER_KEY}`,
+      style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=KRm0tPC1vy3ZKfJl94Ms',
       center: [-0.192, 51.458],
       zoom: 13,
       attributionControl: false,
