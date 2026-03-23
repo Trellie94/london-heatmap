@@ -1,5 +1,6 @@
 import { CATEGORIES } from '@/data/categories';
 import { useHeatmap } from '@/context/HeatmapContext';
+import type { Category, LayerState } from '@/types';
 import CategoryCard from './CategoryCard';
 import CategoryGroupHeader from './CategoryGroupHeader';
 
@@ -14,13 +15,13 @@ function buildRenderList() {
   > = [];
   const seen = new Set<number>();
 
-  CATEGORIES.forEach((cat, i) => {
+  CATEGORIES.forEach((cat: Category, i: number) => {
     if (seen.has(i)) return;
 
     if (cat.group) {
       // Collect all categories in this group
       const indices: number[] = [];
-      CATEGORIES.forEach((c, j) => {
+      CATEGORIES.forEach((c: Category, j: number) => {
         if (c.group === cat.group) {
           indices.push(j);
           seen.add(j);
@@ -61,9 +62,9 @@ export default function CategoryList() {
 
         const groupCats = item.catIndices.map((i) => CATEGORIES[i]);
         const groupLayers = groupCats.map(
-          (c) => state.layers.find((l) => l.categoryId === c.id)!
+          (c: Category) => state.layers.find((l: LayerState) => l.categoryId === c.id)!
         );
-        const anyEnabled = groupLayers.some((l) => l.enabled);
+        const anyEnabled = groupLayers.some((l: LayerState) => l.enabled);
 
         return (
           <CategoryGroupHeader
@@ -73,7 +74,7 @@ export default function CategoryList() {
             onToggleAll={() => {
               // If any are enabled, disable all. Otherwise enable all.
               for (const cat of groupCats) {
-                const layer = state.layers.find((l) => l.categoryId === cat.id)!;
+                const layer = state.layers.find((l: LayerState) => l.categoryId === cat.id)!;
                 if (anyEnabled && layer.enabled) {
                   dispatch({ type: 'TOGGLE_LAYER', categoryId: cat.id });
                 } else if (!anyEnabled && !layer.enabled) {

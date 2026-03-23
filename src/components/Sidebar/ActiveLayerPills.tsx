@@ -1,11 +1,12 @@
 import { useHeatmap } from '@/context/HeatmapContext';
 import { CATEGORIES } from '@/data/categories';
+import type { LayerState, Category } from '@/types';
 
 export default function ActiveLayerPills() {
   const { state } = useHeatmap();
-  const activeLayers = state.layers.filter((l) => l.enabled);
-  const activeCategories = activeLayers.map((l) =>
-    CATEGORIES.find((c) => c.id === l.categoryId)!
+  const activeLayers = state.layers.filter((l: LayerState) => l.enabled);
+  const activeCategories = activeLayers.map((l: LayerState) =>
+    CATEGORIES.find((c: Category) => c.id === l.categoryId)!
   );
 
   return (
@@ -29,7 +30,7 @@ export default function ActiveLayerPills() {
             No layers active
           </span>
         ) : (
-          activeCategories.map((cat) => (
+          activeCategories.map((cat: Category) => (
             <span
               key={cat.id}
               className="inline-flex items-center gap-1.5 transition-all duration-200"

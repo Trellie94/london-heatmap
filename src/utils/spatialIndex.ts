@@ -1,5 +1,5 @@
 import { latLngToCell, gridDisk, getHexagonEdgeLengthAvg } from 'h3-js';
-import type { POI } from '@/types';
+import type { POI, Category } from '@/types';
 import { CATEGORIES } from '@/data/categories';
 import { poiData } from '@/data/loadPois';
 
@@ -49,7 +49,7 @@ export function buildSpatialIndex(
   const coverage = new Map<string, Set<string>>();
 
   for (const { categoryId, radius } of activeLayers) {
-    const cat = CATEGORIES.find((c) => c.id === categoryId);
+    const cat = CATEGORIES.find((c: Category) => c.id === categoryId);
     if (!cat) continue;
     const pois = poiData[cat.id] || [];
 

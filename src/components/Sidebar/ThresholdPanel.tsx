@@ -1,4 +1,5 @@
 import { useHeatmap } from '@/context/HeatmapContext';
+import type { LayerState } from '@/types';
 import Slider from './Slider';
 
 interface ThresholdPanelProps {
@@ -7,7 +8,7 @@ interface ThresholdPanelProps {
 
 export default function ThresholdPanel({ coveragePct }: ThresholdPanelProps) {
   const { state, dispatch } = useHeatmap();
-  const hasActiveLayers = state.layers.some((l) => l.enabled);
+  const hasActiveLayers = state.layers.some((l: LayerState) => l.enabled);
   const isIndexMode = state.viewMode === 'index';
 
   return (

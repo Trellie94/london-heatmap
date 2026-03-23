@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+import type { Category, LayerState } from '@/types';
 import { useHeatmap } from '@/context/HeatmapContext';
 import { poiData } from '@/data/loadPois';
 import Toggle from './Toggle';
@@ -13,7 +13,7 @@ interface CategoryCardProps {
 
 export default function CategoryCard({ category, indent }: CategoryCardProps) {
   const { state, dispatch } = useHeatmap();
-  const layer = state.layers.find((l) => l.categoryId === category.id)!;
+  const layer = state.layers.find((l: LayerState) => l.categoryId === category.id)!;
   const count = poiData[category.id]?.length ?? 0;
 
   return (

@@ -1,8 +1,8 @@
 import { createContext, useContext, useReducer, type ReactNode } from 'react';
-import type { HeatmapState, HeatmapAction, LayerState } from '@/types';
+import type { HeatmapState, HeatmapAction, LayerState, Category } from '@/types';
 import { CATEGORIES } from '@/data/categories';
 
-const initialLayers: LayerState[] = CATEGORIES.map((c) => ({
+const initialLayers: LayerState[] = CATEGORIES.map((c: Category) => ({
   categoryId: c.id,
   enabled: false,
   radius: c.defaultRadius,
@@ -20,21 +20,21 @@ function heatmapReducer(state: HeatmapState, action: HeatmapAction): HeatmapStat
     case 'TOGGLE_LAYER':
       return {
         ...state,
-        layers: state.layers.map((l) =>
+        layers: state.layers.map((l: LayerState) =>
           l.categoryId === action.categoryId ? { ...l, enabled: !l.enabled } : l
         ),
       };
     case 'SET_RADIUS':
       return {
         ...state,
-        layers: state.layers.map((l) =>
+        layers: state.layers.map((l: LayerState) =>
           l.categoryId === action.categoryId ? { ...l, radius: action.radius } : l
         ),
       };
     case 'SET_WEIGHT':
       return {
         ...state,
-        layers: state.layers.map((l) =>
+        layers: state.layers.map((l: LayerState) =>
           l.categoryId === action.categoryId ? { ...l, weight: action.weight } : l
         ),
       };

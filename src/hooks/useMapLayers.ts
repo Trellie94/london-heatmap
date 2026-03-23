@@ -8,7 +8,7 @@ import { useHeatmap } from '@/context/HeatmapContext';
 import { CATEGORIES } from '@/data/categories';
 import { poiData } from '@/data/loadPois';
 import { toGeoJSON } from '@/utils/coords';
-import type { POI } from '@/types';
+import type { POI, LayerState, Category } from '@/types';
 
 function poisToGeoJSON(pois: POI[]) {
   return {
@@ -57,8 +57,8 @@ export function useMapLayers(
 
     const run = () => {
       const activeIds = state.layers
-        .filter((l) => l.enabled)
-        .map((l) => l.categoryId);
+        .filter((l: LayerState) => l.enabled)
+        .map((l: LayerState) => l.categoryId);
 
       const prevIds = prevLayersRef.current;
       const toRemove = prevIds.filter((id) => !activeIds.includes(id));
@@ -72,7 +72,7 @@ export function useMapLayers(
 
       for (const layer of state.layers) {
         if (!layer.enabled) continue;
-        const cat = CATEGORIES.find((c) => c.id === layer.categoryId);
+        const cat = CATEGORIES.find((c: Category) => c.id === layer.categoryId);
         if (!cat) continue;
         const pois = poiData[cat.id];
         if (!pois || pois.length === 0) continue;
@@ -128,7 +128,7 @@ export function useMapLayers(
             },
           });
 
-          map.on('mouseenter', pinLayerId, (e) => {
+          map.on('mouseenter', pinLayerId, (e: maplibregl.MapMouseEvent & { features?: maplibregl.MapGeoJSONFeature[] }) => {
             map.getCanvas().style.cursor = 'pointer';
             const feature = e.features?.[0];
             if (!feature || feature.geometry.type !== 'Point') return;

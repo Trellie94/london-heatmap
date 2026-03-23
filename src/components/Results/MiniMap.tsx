@@ -28,7 +28,7 @@ export default function MiniMap({ lat, lng, className = '' }: MiniMapProps) {
       interactive: false,
       attributionControl: false,
       preserveDrawingBuffer: true, // needed for toDataURL
-    });
+    } as maplibregl.MapOptions);
 
     mapRef.current = map;
 

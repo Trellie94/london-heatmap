@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { cellToLatLng, latLngToCell, gridDisk } from 'h3-js';
 import type { Feature, Polygon, MultiPolygon } from 'geojson';
-import type { LayerState } from '@/types';
+import type { LayerState, Category } from '@/types';
 import { QUIZ_QUESTIONS, type QuizAnswers } from '@/data/quizQuestions';
 import { CATEGORIES } from '@/data/categories';
 import { NEIGHBOURHOODS } from '@/data/neighbourhoods';
@@ -35,7 +35,7 @@ export function quizAnswersToLayers(answers: QuizAnswers): LayerState[] {
     }
   }
 
-  return CATEGORIES.map((c) => ({
+  return CATEGORIES.map((c: Category) => ({
     categoryId: c.id,
     enabled: categoryEnabled[c.id] ?? false,
     radius: c.defaultRadius,

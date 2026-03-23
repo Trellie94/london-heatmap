@@ -12,6 +12,7 @@ import ResultsPage from '@/components/Results/ResultsPage';
 import MenuButton from '@/components/MenuButton';
 import MethodologyPage from '@/components/MethodologyPage';
 import type { QuizAnswers } from '@/data/quizQuestions';
+import type { LayerState } from '@/types';
 
 type Screen = 'quiz' | 'results' | 'explore' | 'methodology';
 
@@ -27,14 +28,14 @@ function ExploreView({ menuButton }: { menuButton?: React.ReactNode }) {
 
   useMapLayers(mapRef, geojson);
 
-  const activeLayers = state.layers.filter((l) => l.enabled);
+  const activeLayers = state.layers.filter((l: LayerState) => l.enabled);
 
   // Calculate coverage: hexes above threshold / total hexes
   let coveragePct = 0;
   if (hexCount > 0 && geojson && geojson.features.length > 0) {
     const thresholdVal = state.threshold / 100;
     const aboveThreshold = geojson.features.filter(
-      (f) => (f.properties?.score ?? 0) >= thresholdVal
+      (f: GeoJSON.Feature) => (f.properties?.score ?? 0) >= thresholdVal
     ).length;
     coveragePct = Math.round((aboveThreshold / hexCount) * 100);
   }

@@ -1,4 +1,5 @@
 import type { NeighbourhoodResult } from '@/hooks/useQuizResults';
+import type { Category } from '@/types';
 import { CATEGORIES } from '@/data/categories';
 import MiniMap from './MiniMap';
 
@@ -58,8 +59,8 @@ export default function PolaroidCard({ result, rank }: PolaroidCardProps) {
 
         {/* Amenity dots */}
         <div className="flex gap-1.5 mt-2 flex-wrap">
-          {result.topAmenities.map((catId) => {
-            const cat = CATEGORIES.find((c) => c.id === catId);
+          {result.topAmenities.map((catId: string) => {
+            const cat = CATEGORIES.find((c: Category) => c.id === catId);
             if (!cat) return null;
             return (
               <span
